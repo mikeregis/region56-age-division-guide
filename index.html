@@ -1,0 +1,93 @@
+<style>
+
+.age-guide{font-family:Arial,Helvetica,sans-serif;color:#263c50;max-width:1120px;margin:auto;line-height:1.55}.age-guide *{box-sizing:border-box}.age-guide .hero{background:#102d4b;color:#fff;padding:30px 28px;border-top:6px solid #d62d3d;border-radius:14px}.age-guide h1{font-size:31px;color:white;margin:0 0 10px}.age-guide .hero p{color:#edf5fb;margin:0}.age-guide .nav{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.age-guide .nav a{padding:10px 14px;background:#edf5fb;border:1px solid #b6cedf;color:#123557;border-radius:8px;font-weight:700;text-decoration:none}.age-guide .panel{border:1px solid #dbe4ec;border-radius:12px;background:#fff;padding:22px;margin:18px 0;box-shadow:0 2px 7px rgba(12,42,71,.07)}.age-guide h2{font-size:24px;color:#123557;margin:0 0 14px;border-bottom:3px solid #d52d3d;padding-bottom:9px}.age-guide h3{font-size:18px;color:#153f65;margin:18px 0 10px}.age-guide .controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.age-guide label{display:block;font-size:13px;font-weight:bold;color:#153f65;margin-bottom:5px}.age-guide select{width:100%;border:1px solid #9fb5c7;border-radius:7px;padding:11px;background:white;color:#153047;font-size:15px}.age-guide .result{background:#edf5fb;border-left:5px solid #d62d3d;border-radius:8px;padding:16px 18px;margin-top:18px;min-height:62px}.age-guide .result[hidden]{display:none}.age-guide .result p{margin:4px 0 0}.age-guide .controls select:disabled{background:#f2f4f6;color:#677887}.age-guide .result strong{font-size:22px;color:#102d4b}.age-guide .table-scroll{overflow-x:auto;border-radius:8px;border:1px solid #dce5ee}.age-guide table{width:100%;border-collapse:collapse;min-width:650px;text-align:center;font-size:13px}.age-guide th,.age-guide td{padding:9px 7px;border:1px solid #dce5ee;white-space:nowrap}.age-guide thead th{background:#13395a;color:#fff}.age-guide tbody th{text-align:left;color:#123557;font-weight:700;background:#eaf1f7;position:sticky;left:0}.age-guide tbody tr:nth-child(odd) td{background:#f1f6fb}.age-guide tbody tr:nth-child(even) td{background:white}.age-guide .note{font-size:14px;color:#4a5c6c}.age-guide .warning{background:#fff6e8;border-left:4px solid #d62d3d;padding:12px 15px;border-radius:6px;margin:12px 0}.age-guide .foot{font-size:13px;color:#566879;margin:18px 0}@media(max-width:650px){.age-guide .controls{grid-template-columns:1fr}.age-guide .hero{padding:22px 18px}.age-guide h1{font-size:26px}.age-guide .panel{padding:16px}.age-guide table{font-size:12px}}
+
+</style>
+<main class="age-guide"><header class="hero"><h1>2027 Soccer Age Division Guide</h1><p>Find your child’s division for Spring or Fall recreational soccer, or Fall EXTRA. Use the links below to find your child’s division in the season charts.</p></header><section class="panel" aria-label="Division lookup">
+<div class="controls">
+<div><label for="program-select">Program</label><select id="program-select"><option value="">Choose a program</option><option value="spring" selected>Spring 2027 · Recreational</option><option value="fall">Fall 2027 · Recreational</option><option value="extra">Fall 2027 · EXTRA</option></select></div>
+<div><label for="birth-month-select">DOB Month</label><select id="birth-month-select"><option value="">Choose a birth month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option></select></div>
+<div><label for="birth-year-select">DOB Year</label><select id="birth-year-select" disabled><option value="">Choose a program first</option></select></div>
+</div>
+<div class="result" id="division-result" role="status" aria-live="polite" hidden></div>
+</section>
+<section class="panel" id="lookup"><h2>Find your child’s division</h2><p>Select a program, birth month, and birth year above to see the division. The charts below show the source age divisions.</p><div class="nav"><a href="#spring">Spring 2027 · Recreational</a><a href="#fall">Fall 2027 · Recreational</a><a href="#extra">Fall 2027 · EXTRA</a></div><p class="note">All programs use August 1–July 31 age cutoffs. Recreational sometimes combines two age groups; EXTRA uses single-year divisions. </p></section><section class="panel" id="spring"><h2>Spring 2027 · Core/Recreational</h2><p>Find your child’s birth year across the top and birth month on the left.</p><h3>Younger divisions</h3><div class="table-scroll"><table aria-label="Spring 2027 · Core/Recreational younger divisions"><thead><tr><th scope="col">Birth month</th><th scope="col">2023</th><th scope="col">2022</th><th scope="col">2021</th><th scope="col">2020</th><th scope="col">2019</th><th scope="col">2018</th><th scope="col">2017</th><th scope="col">2016</th><th scope="col">2015</th></tr></thead><tbody><tr><th scope="row">January</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">February</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">March</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">April</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">May</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">June</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">July</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">August</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr><tr><th scope="row">September</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr><tr><th scope="row">October</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr><tr><th scope="row">November</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr><tr><th scope="row">December</th><td>PG</td><td>U6</td><td>U6</td><td>U8</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr></tbody></table></div><h3>Older divisions</h3><div class="table-scroll"><table aria-label="Spring 2027 · Core/Recreational older divisions"><thead><tr><th scope="col">Birth month</th><th scope="col">2015</th><th scope="col">2014</th><th scope="col">2013</th><th scope="col">2012</th><th scope="col">2011</th><th scope="col">2010</th><th scope="col">2009</th><th scope="col">2008</th><th scope="col">2007</th></tr></thead><tbody><tr><th scope="row">January</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">February</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">March</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">April</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">May</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">June</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">July</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">August</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr><tr><th scope="row">September</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr><tr><th scope="row">October</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr><tr><th scope="row">November</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr><tr><th scope="row">December</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr></tbody></table></div><p class="note">PG = Playground Program. A dash means no division is shown in the source chart for that month and year.</p></section><section class="panel" id="fall"><h2>Fall 2027 · Core/Recreational</h2><p>Find your child’s birth year across the top and birth month on the left.</p><h3>Younger divisions</h3><div class="table-scroll"><table aria-label="Fall 2027 · Core/Recreational younger divisions"><thead><tr><th scope="col">Birth month</th><th scope="col">2024</th><th scope="col">2023</th><th scope="col">2022</th><th scope="col">2021</th><th scope="col">2020</th><th scope="col">2019</th><th scope="col">2018</th><th scope="col">2017</th><th scope="col">2016</th></tr></thead><tbody><tr><th scope="row">January</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">February</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">March</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">April</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">May</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">June</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">July</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>U12</td></tr><tr><th scope="row">August</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr><tr><th scope="row">September</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr><tr><th scope="row">October</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr><tr><th scope="row">November</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr><tr><th scope="row">December</th><td>PG</td><td>U5</td><td>U6</td><td>U7</td><td>U8</td><td>U10</td><td>U10</td><td>U12</td><td>—</td></tr></tbody></table></div><h3>Older divisions</h3><div class="table-scroll"><table aria-label="Fall 2027 · Core/Recreational older divisions"><thead><tr><th scope="col">Birth month</th><th scope="col">2016</th><th scope="col">2015</th><th scope="col">2014</th><th scope="col">2013</th><th scope="col">2012</th><th scope="col">2011</th><th scope="col">2010</th><th scope="col">2009</th><th scope="col">2008</th></tr></thead><tbody><tr><th scope="row">January</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">February</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">March</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">April</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">May</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">June</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">July</th><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td><td>—</td></tr><tr><th scope="row">August</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr><tr><th scope="row">September</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr><tr><th scope="row">October</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr><tr><th scope="row">November</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr><tr><th scope="row">December</th><td>U12</td><td>U12</td><td>U14</td><td>U14</td><td>U15</td><td>U16</td><td>U17</td><td>U18</td><td>U19</td></tr></tbody></table></div><p class="note">PG = Playground Program. A dash means no division is shown in the source chart for that month and year.</p></section><section class="panel" id="extra"><h2>Fall 2027 · EXTRA Program</h2><div class="warning"><strong>EXTRA uses a different age-division chart from recreational soccer.</strong> Do not use the recreational grids to determine EXTRA tryout eligibility.</div><p>&nbsp;</p><div class="table-scroll"><table aria-label="Fall 2027 EXTRA divisions"><thead><tr><th scope="col">Birth month</th><th scope="col">2019</th><th scope="col">2018</th><th scope="col">2017</th><th scope="col">2016</th><th scope="col">2015</th><th scope="col">2014</th><th scope="col">2013</th></tr></thead><tbody><tr><th scope="row">January</th><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td><td>—</td></tr><tr><th scope="row">February</th><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td><td>—</td></tr><tr><th scope="row">March</th><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td><td>—</td></tr><tr><th scope="row">April</th><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td><td>—</td></tr><tr><th scope="row">May</th><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td><td>—</td></tr><tr><th scope="row">June</th><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td><td>—</td></tr><tr><th scope="row">July</th><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td><td>—</td></tr><tr><th scope="row">August</th><td>—</td><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td></tr><tr><th scope="row">September</th><td>—</td><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td></tr><tr><th scope="row">October</th><td>—</td><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td></tr><tr><th scope="row">November</th><td>—</td><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td></tr><tr><th scope="row">December</th><td>—</td><td>U9</td><td>U10</td><td>U11</td><td>U12</td><td>U13</td><td>U14</td></tr></tbody></table></div><p class="note">EXTRA teams are U9–U14. A dash means that birth month/year is outside the published EXTRA chart.</p></section></main>
+<script>
+(function () {
+  var programSelect = document.getElementById('program-select');
+  var monthSelect = document.getElementById('birth-month-select');
+  var yearSelect = document.getElementById('birth-year-select');
+  var result = document.getElementById('division-result');
+  var programNames = {
+    spring: 'Spring 2027 Recreational',
+    fall: 'Fall 2027 Recreational',
+    extra: 'Fall 2027 EXTRA'
+  };
+
+  function updateYears() {
+    var program = programSelect.value;
+    yearSelect.innerHTML = '';
+    var placeholder = document.createElement('option');
+    placeholder.value = '';
+    placeholder.textContent = program ? 'Choose a birth year' : 'Choose a program first';
+    yearSelect.appendChild(placeholder);
+    yearSelect.disabled = !program;
+    if (!program) return;
+
+    var years = new Set();
+    document.querySelectorAll('#' + program + ' table thead th').forEach(function (cell) {
+      var value = cell.textContent.trim();
+      if (/^\d{4}$/.test(value)) years.add(value);
+    });
+    Array.from(years).sort(function (a, b) { return Number(b) - Number(a); }).forEach(function (year) {
+      var option = document.createElement('option');
+      option.value = year;
+      option.textContent = year;
+      yearSelect.appendChild(option);
+    });
+  }
+
+  function showDivision() {
+    var program = programSelect.value;
+    var month = monthSelect.value;
+    var year = yearSelect.value;
+    if (!program || !month || !year) {
+      result.hidden = true;
+      result.textContent = '';
+      return;
+    }
+
+    var division = '';
+    document.querySelectorAll('#' + program + ' table').forEach(function (table) {
+      if (division) return;
+      var headers = Array.from(table.querySelectorAll('thead th'));
+      var yearIndex = headers.findIndex(function (cell) { return cell.textContent.trim() === year; });
+      if (yearIndex < 0) return;
+      var row = Array.from(table.querySelectorAll('tbody tr')).find(function (candidate) {
+        var label = candidate.querySelector('th[scope="row"]');
+        return label && label.textContent.trim() === month;
+      });
+      if (row && row.cells[yearIndex]) {
+        var value = row.cells[yearIndex].textContent.trim();
+        if (value && value !== '—' && value !== '-') division = value;
+      }
+    });
+
+    result.hidden = false;
+    if (!division || division === '—' || division === '-') {
+      result.innerHTML = '<strong>No division listed</strong><p>This birth month and year are outside the published chart for ' + programNames[program] + '.</p>';
+    } else {
+      var displayDivision = division === 'PG' ? 'Playground' : division;
+      result.innerHTML = '<strong>' + displayDivision + '</strong><p>' + programNames[program] + '</p>';
+    }
+  }
+
+  programSelect.addEventListener('change', function () {
+    updateYears();
+    showDivision();
+  });
+  monthSelect.addEventListener('change', showDivision);
+  yearSelect.addEventListener('change', showDivision);
+  updateYears();
+}());
+</script>
